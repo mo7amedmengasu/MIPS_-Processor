@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/oa508/Documents/CO_project_phase2_v2_v4/testbench_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="controller_package" />
+            <top_module name="data_path_package" />
+            <top_module name="mips_package" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_signed" />
+            <top_module name="std_logic_textio" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="testbench" />
+            <top_module name="textio" />
+            <top_module name="top_package" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/testbench/writedata" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">writedata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">writedata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dataadr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dataadr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dataadr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/memwrite" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">memwrite</obj_property>
+      <obj_property name="ObjectShortName">memwrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips_instace/pc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips_instace/instr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips_instace/datapath_instance/pcmux/i0" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">i0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i0[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips_instace/datapath_instance/pcmux/i1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">i1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i1[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips_instace/datapath_instance/pcmux/s" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">s</obj_property>
+      <obj_property name="ObjectShortName">s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips_instace/datapath_instance/pcmux/y" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">y[31:0]</obj_property>
+      <obj_property name="ObjectShortName">y[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips_instace/datapath_instance/pcmux/n" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">n</obj_property>
+      <obj_property name="ObjectShortName">n</obj_property>
+   </wvobject>
+   <wvobject fp_name="group13" type="group">
+      <obj_property name="label">rf</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/testbench/dut/mips_instace/datapath_instance/rf_instance/read_sel1" type="array" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">read_sel1[4:0]</obj_property>
+         <obj_property name="ObjectShortName">read_sel1[4:0]</obj_property>
+         <obj_property name="label">read_sel1[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_instace/datapath_instance/rf_instance/read_sel2" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">read_sel2[4:0]</obj_property>
+         <obj_property name="ObjectShortName">read_sel2[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_instace/datapath_instance/rf_instance/write_sel" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">write_sel[4:0]</obj_property>
+         <obj_property name="ObjectShortName">write_sel[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_instace/datapath_instance/rf_instance/write_ena" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">write_ena</obj_property>
+         <obj_property name="ObjectShortName">write_ena</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_instace/datapath_instance/rf_instance/clk" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_instace/datapath_instance/rf_instance/reset" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">reset</obj_property>
+         <obj_property name="ObjectShortName">reset</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_instace/datapath_instance/rf_instance/write_data" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">write_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">write_data[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_instace/datapath_instance/rf_instance/data1" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">data1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data1[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_instace/datapath_instance/rf_instance/data2" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">data2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data2[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_instace/datapath_instance/rf_instance/writeind" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">writeind[31:0]</obj_property>
+         <obj_property name="ObjectShortName">writeind[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_instace/datapath_instance/rf_instance/reg0d" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">reg0d[31:0]</obj_property>
+         <obj_property name="ObjectShortName">reg0d[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_instace/datapath_instance/rf_instance/reg1d" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">reg1d[31:0]</obj_property>
+         <obj_property name="ObjectShortName">reg1d[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_instace/datapath_instance/rf_instance/reg2d" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">reg2d[31:0]</obj_property>
+         <obj_property name="ObjectShortName">reg2d[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_instace/datapath_instance/rf_instance/reg3d" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">reg3d[31:0]</obj_property>
+         <obj_property name="ObjectShortName">reg3d[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_instace/datapath_instance/rf_instance/reg4d" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">reg4d[31:0]</obj_property>
+         <obj_property name="ObjectShortName">reg4d[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_instace/datapath_instance/rf_instance/reg5d" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">reg5d[31:0]</obj_property>
+         <obj_property name="ObjectShortName">reg5d[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_instace/datapath_instance/rf_instance/reg6d" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">reg6d[31:0]</obj_property>
+         <obj_property name="ObjectShortName">reg6d[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_instace/datapath_instance/rf_instance/reg7d" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">reg7d[31:0]</obj_property>
+         <obj_property name="ObjectShortName">reg7d[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_instace/datapath_instance/rf_instance/reg8d" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">reg8d[31:0]</obj_property>
+         <obj_property name="ObjectShortName">reg8d[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_instace/datapath_instance/rf_instance/reg9d" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">reg9d[31:0]</obj_property>
+         <obj_property name="ObjectShortName">reg9d[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_instace/datapath_instance/rf_instance/reg10d" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">reg10d[31:0]</obj_property>
+         <obj_property name="ObjectShortName">reg10d[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_instace/datapath_instance/rf_instance/reg11d" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">reg11d[31:0]</obj_property>
+         <obj_property name="ObjectShortName">reg11d[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_instace/datapath_instance/rf_instance/reg12d" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">reg12d[31:0]</obj_property>
+         <obj_property name="ObjectShortName">reg12d[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_instace/datapath_instance/rf_instance/reg13d" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">reg13d[31:0]</obj_property>
+         <obj_property name="ObjectShortName">reg13d[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_instace/datapath_instance/rf_instance/reg14d" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">reg14d[31:0]</obj_property>
+         <obj_property name="ObjectShortName">reg14d[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_instace/datapath_instance/rf_instance/reg15d" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">reg15d[31:0]</obj_property>
+         <obj_property name="ObjectShortName">reg15d[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_instace/datapath_instance/rf_instance/reg16d" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">reg16d[31:0]</obj_property>
+         <obj_property name="ObjectShortName">reg16d[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_instace/datapath_instance/rf_instance/reg17d" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">reg17d[31:0]</obj_property>
+         <obj_property name="ObjectShortName">reg17d[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_instace/datapath_instance/rf_instance/reg18d" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">reg18d[31:0]</obj_property>
+         <obj_property name="ObjectShortName">reg18d[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_instace/datapath_instance/rf_instance/reg19d" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">reg19d[31:0]</obj_property>
+         <obj_property name="ObjectShortName">reg19d[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_instace/datapath_instance/rf_instance/reg20d" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">reg20d[31:0]</obj_property>
+         <obj_property name="ObjectShortName">reg20d[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_instace/datapath_instance/rf_instance/reg21d" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">reg21d[31:0]</obj_property>
+         <obj_property name="ObjectShortName">reg21d[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_instace/datapath_instance/rf_instance/reg22d" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">reg22d[31:0]</obj_property>
+         <obj_property name="ObjectShortName">reg22d[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_instace/datapath_instance/rf_instance/reg23d" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">reg23d[31:0]</obj_property>
+         <obj_property name="ObjectShortName">reg23d[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_instace/datapath_instance/rf_instance/reg24d" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">reg24d[31:0]</obj_property>
+         <obj_property name="ObjectShortName">reg24d[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_instace/datapath_instance/rf_instance/reg25d" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">reg25d[31:0]</obj_property>
+         <obj_property name="ObjectShortName">reg25d[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_instace/datapath_instance/rf_instance/reg26d" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">reg26d[31:0]</obj_property>
+         <obj_property name="ObjectShortName">reg26d[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_instace/datapath_instance/rf_instance/reg27d" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">reg27d[31:0]</obj_property>
+         <obj_property name="ObjectShortName">reg27d[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_instace/datapath_instance/rf_instance/reg28d" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">reg28d[31:0]</obj_property>
+         <obj_property name="ObjectShortName">reg28d[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_instace/datapath_instance/rf_instance/reg29d" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">reg29d[31:0]</obj_property>
+         <obj_property name="ObjectShortName">reg29d[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_instace/datapath_instance/rf_instance/reg30d" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">reg30d[31:0]</obj_property>
+         <obj_property name="ObjectShortName">reg30d[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_instace/datapath_instance/rf_instance/reg31d" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">reg31d[31:0]</obj_property>
+         <obj_property name="ObjectShortName">reg31d[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group14" type="group">
+      <obj_property name="label">alu</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/testbench/dut/mips_instace/datapath_instance/main_alu/data11" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">data11[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data11[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_instace/datapath_instance/main_alu/data22" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">data22[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data22[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_instace/datapath_instance/main_alu/aluop" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">aluop[3:0]</obj_property>
+         <obj_property name="ObjectShortName">aluop[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_instace/datapath_instance/main_alu/dataout" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">dataout[31:0]</obj_property>
+         <obj_property name="ObjectShortName">dataout[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_instace/datapath_instance/main_alu/zflag" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">zflag</obj_property>
+         <obj_property name="ObjectShortName">zflag</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_instace/datapath_instance/main_alu/b" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">b[31:0]</obj_property>
+         <obj_property name="ObjectShortName">b[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_instace/datapath_instance/main_alu/a" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">a[31:0]</obj_property>
+         <obj_property name="ObjectShortName">a[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_instace/datapath_instance/main_alu/sum" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">sum[31:0]</obj_property>
+         <obj_property name="ObjectShortName">sum[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_instace/datapath_instance/main_alu/tmp" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">tmp[31:0]</obj_property>
+         <obj_property name="ObjectShortName">tmp[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group15" type="group">
+      <obj_property name="label">dmem</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/testbench/dut/dmem_instance/clk" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/dmem_instance/we" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">we</obj_property>
+         <obj_property name="ObjectShortName">we</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/dmem_instance/a" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">a[31:0]</obj_property>
+         <obj_property name="ObjectShortName">a[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/dmem_instance/wd" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">wd[31:0]</obj_property>
+         <obj_property name="ObjectShortName">wd[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/dmem_instance/rd" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">rd[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rd[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

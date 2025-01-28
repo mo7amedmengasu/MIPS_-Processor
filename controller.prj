@@ -1,0 +1,4 @@
+vhdl work "maindec.vhd"
+vhdl work "controller_package.vhd"
+vhdl work "aludec.vhd"
+vhdl work "controller.vhd"

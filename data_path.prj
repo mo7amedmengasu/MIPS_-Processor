@@ -1,0 +1,2 @@
+vhdl work "data_path_package.vhd"
+vhdl work "data_path.vhd"

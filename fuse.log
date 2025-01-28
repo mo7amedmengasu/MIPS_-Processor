@@ -1,0 +1,70 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Users/oa508/Documents/CO_project_phase2_v2_v4/testbench_isim_beh.exe -prj C:/Users/oa508/Documents/CO_project_phase2_v2_v4/testbench_beh.prj work.testbench 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/oa508/Documents/CO_project_phase2_v2_v4/RegisterZeroEntity.vhd" into library work
+Parsing VHDL file "C:/Users/oa508/Documents/CO_project_phase2_v2_v4/RegisterEntity.vhd" into library work
+Parsing VHDL file "C:/Users/oa508/Documents/CO_project_phase2_v2_v4/General_Mux.vhd" into library work
+Parsing VHDL file "C:/Users/oa508/Documents/CO_project_phase2_v2_v4/demux.vhd" into library work
+Parsing VHDL file "C:/Users/oa508/Documents/CO_project_phase2_v2_v4/sl2.vhd" into library work
+Parsing VHDL file "C:/Users/oa508/Documents/CO_project_phase2_v2_v4/signext.vhd" into library work
+Parsing VHDL file "C:/Users/oa508/Documents/CO_project_phase2_v2_v4/Register_File.vhd" into library work
+Parsing VHDL file "C:/Users/oa508/Documents/CO_project_phase2_v2_v4/Mux2.vhd" into library work
+Parsing VHDL file "C:/Users/oa508/Documents/CO_project_phase2_v2_v4/maindec.vhd" into library work
+Parsing VHDL file "C:/Users/oa508/Documents/CO_project_phase2_v2_v4/flopr.vhd" into library work
+Parsing VHDL file "C:/Users/oa508/Documents/CO_project_phase2_v2_v4/data_path_package.vhd" into library work
+Parsing VHDL file "C:/Users/oa508/Documents/CO_project_phase2_v2_v4/controller_package.vhd" into library work
+Parsing VHDL file "C:/Users/oa508/Documents/CO_project_phase2_v2_v4/aludec.vhd" into library work
+Parsing VHDL file "C:/Users/oa508/Documents/CO_project_phase2_v2_v4/alu.vhd" into library work
+Parsing VHDL file "C:/Users/oa508/Documents/CO_project_phase2_v2_v4/adder.vhd" into library work
+Parsing VHDL file "C:/Users/oa508/Documents/CO_project_phase2_v2_v4/mips_package.vhd" into library work
+Parsing VHDL file "C:/Users/oa508/Documents/CO_project_phase2_v2_v4/data_path.vhd" into library work
+Parsing VHDL file "C:/Users/oa508/Documents/CO_project_phase2_v2_v4/controller.vhd" into library work
+Parsing VHDL file "C:/Users/oa508/Documents/CO_project_phase2_v2_v4/top_package.vhd" into library work
+Parsing VHDL file "C:/Users/oa508/Documents/CO_project_phase2_v2_v4/mips.vhd" into library work
+Parsing VHDL file "C:/Users/oa508/Documents/CO_project_phase2_v2_v4/imem.vhd" into library work
+Parsing VHDL file "C:/Users/oa508/Documents/CO_project_phase2_v2_v4/dmem.vhd" into library work
+Parsing VHDL file "C:/Users/oa508/Documents/CO_project_phase2_v2_v4/top.vhd" into library work
+Parsing VHDL file "C:/Users/oa508/Documents/CO_project_phase2_v2_v4/testbench.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_signed
+Compiling package numeric_std
+Compiling package top_package
+Compiling package mips_package
+Compiling package textio
+Compiling package std_logic_textio
+Compiling package data_path_package
+Compiling package controller_package
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity flopr [\flopr(32)\]
+Compiling architecture behavioral of entity adder [adder_default]
+Compiling architecture myarch of entity sl2 [sl2_default]
+Compiling architecture muxarch of entity Mux2 [\Mux2(32)\]
+Compiling architecture muxarch of entity Mux2 [\Mux2(5)\]
+Compiling architecture behavioral of entity demux [demux_default]
+Compiling architecture behavioral of entity RegisterZeroEntity [registerzeroentity_default]
+Compiling architecture behavioral of entity RegisterEntity [registerentity_default]
+Compiling architecture behavioral of entity General_Mux [\General_Mux(32)\]
+Compiling architecture behavioral of entity Register_File [register_file_default]
+Compiling architecture beave of entity signext [signext_default]
+Compiling architecture behavioral of entity alu [alu_default]
+Compiling architecture behavioral of entity datapath [datapath_default]
+Compiling architecture maindeclogic of entity maindec [maindec_default]
+Compiling architecture behave of entity aludec [aludec_default]
+Compiling architecture behavioral of entity controller [controller_default]
+Compiling architecture behavioral of entity mips [mips_default]
+Compiling architecture behave of entity dmem [dmem_default]
+Compiling architecture behave of entity imem [imem_default]
+Compiling architecture behavioral of entity top [top_default]
+Compiling architecture test of entity testbench
+Time Resolution for simulation is 1ps.
+Waiting for 29 sub-compilation(s) to finish...
+Compiled 53 VHDL Units
+Built simulation executable C:/Users/oa508/Documents/CO_project_phase2_v2_v4/testbench_isim_beh.exe
+Fuse Memory Usage: 39048 KB
+Fuse CPU Usage: 858 ms

@@ -1,0 +1,5 @@
+vhdl work "RegisterZeroEntity.vhd"
+vhdl work "RegisterEntity.vhd"
+vhdl work "General_Mux.vhd"
+vhdl work "demux.vhd"
+vhdl work "Register_File.vhd"

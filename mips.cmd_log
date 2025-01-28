@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "C:/CO_project_phase2_v2/mips.xst" -ofn "C:/CO_project_phase2_v2/mips.syr" 
+xst -intstyle ise -ifn "C:/CO_project_phase2_v2/mips.xst" -ofn "C:/CO_project_phase2_v2/mips.syr" 
+xst -intstyle ise -ifn "C:/CO_project_phase2_v2/mips.xst" -ofn "C:/CO_project_phase2_v2/mips.syr" 
